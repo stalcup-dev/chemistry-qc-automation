@@ -1,0 +1,11 @@
+Date,TestName,Result,Mean,SD,ReferenceLow,ReferenceHigh,WestgardRuleViolated,Pass,Comments
+2024-05-23,Glucose,101.0,100.0,5.0,70.0,110.0,10x,Warning,10 consecutive results on one side of the mean
+2024-05-23,Sodium,144.0,140.0,3.0,135.0,145.0,4-1s,Warning,4 consecutive >+1SD
+2024-05-23,Potassium,4.6,4.5,0.5,3.5,5.1,None,Pass,Within 1SD
+2024-05-23,Chloride,105.0,102.0,2.0,98.0,107.0,4-1s,Warning,4 consecutive >+1SD
+2024-05-23,Calcium,10.0,9.5,0.4,8.4,10.2,4-1s,Warning,4 consecutive >+1SD
+2024-05-23,Total Protein,7.4,7.0,0.3,6.0,8.0,None,Pass,Within 2SD
+2024-05-23,Albumin,4.7,4.3,0.2,3.5,5.0,None,Pass,Within 2SD
+2024-05-23,BUN,19.0,16.0,3.0,7.0,25.0,10x,Warning,10 consecutive results on one side of the mean
+2024-05-23,Creatinine,1.3,1.0,0.15,0.6,1.3,None,Pass,Within 2SD
+2024-05-23,CO2,27.0,25.0,1.0,21.0,30.0,None,Pass,Within 2SD

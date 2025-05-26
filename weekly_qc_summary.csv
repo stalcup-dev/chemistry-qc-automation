@@ -1,0 +1,41 @@
+Date,TestName,Result,Mean,SD,ReferenceLow,ReferenceHigh,WestgardRuleViolated,Pass,Comments
+2024-05-20,Albumin,4.9,4.3,0.2,3.5,5.0,1-2s,Warning,Exceeds +2SD but <3SD
+2024-05-21,Albumin,4.8,4.3,0.2,3.5,5.0,2-2s,Fail,Second consecutive 1-2s above mean
+2024-05-22,Albumin,4.2,4.3,0.2,3.5,5.0,,Pass,Within 2SD
+2024-05-23,Albumin,4.7,4.3,0.2,3.5,5.0,,Pass,Within 2SD
+2024-05-20,BUN,25.0,16.0,3.0,7.0,25.0,1-2s,Warning,Exceeds +2SD but <3SD
+2024-05-21,BUN,14.0,16.0,3.0,7.0,25.0,,Pass,Within 2SD
+2024-05-22,BUN,17.0,16.0,3.0,7.0,25.0,,Pass,Within 2SD
+2024-05-23,BUN,19.0,16.0,3.0,7.0,25.0,10x,Warning,10 consecutive results on one side of the mean
+2024-05-20,CO2,30.0,25.0,1.0,21.0,30.0,1-2s,Warning,Exceeds +2SD but <3SD
+2024-05-21,CO2,22.0,25.0,1.0,21.0,30.0,1-3s,Fail,Exceeds -3SD
+2024-05-22,CO2,25.0,25.0,1.0,21.0,30.0,,Pass,Within 2SD
+2024-05-23,CO2,27.0,25.0,1.0,21.0,30.0,,Pass,Within 2SD
+2024-05-20,Calcium,11.0,9.5,0.4,8.4,10.2,1-2s,Warning,Exceeds +2SD but <3SD
+2024-05-21,Calcium,8.7,9.5,0.4,8.4,10.2,,Pass,Within 2SD
+2024-05-22,Calcium,9.2,9.5,0.4,8.4,10.2,,Pass,Within 2SD
+2024-05-23,Calcium,10.0,9.5,0.4,8.4,10.2,4-1s,Warning,4 consecutive >+1SD
+2024-05-20,Chloride,97.0,102.0,2.0,98.0,107.0,,Pass,Within 2SD
+2024-05-21,Chloride,96.0,102.0,2.0,98.0,107.0,1-3s,Fail,Exceeds -3SD
+2024-05-22,Chloride,104.0,102.0,2.0,98.0,107.0,,Pass,Within 2SD
+2024-05-23,Chloride,105.0,102.0,2.0,98.0,107.0,4-1s,Warning,4 consecutive >+1SD
+2024-05-20,Creatinine,1.6,1.0,0.15,0.6,1.3,1-3s,Fail,Exceeds +3SD
+2024-05-21,Creatinine,1.1,1.0,0.15,0.6,1.3,,Pass,Within 2SD
+2024-05-22,Creatinine,1.4,1.0,0.15,0.6,1.3,1-2s,Warning,Exceeds +2SD but <3SD
+2024-05-23,Creatinine,1.3,1.0,0.15,0.6,1.3,,Pass,Within 2SD
+2024-05-20,Glucose,98.0,100.0,5.0,70.0,110.0,,Pass,Within 2SD
+2024-05-21,Glucose,111.0,100.0,5.0,70.0,110.0,1-2s,Warning,Exceeds +2SD but <3SD
+2024-05-22,Glucose,87.0,100.0,5.0,70.0,110.0,,Pass,Within 2SD
+2024-05-23,Glucose,101.0,100.0,5.0,70.0,110.0,10x,Warning,10 consecutive results on one side of the mean
+2024-05-20,Potassium,5.8,4.5,0.5,3.5,5.1,1-3s,Fail,Exceeds +3SD
+2024-05-21,Potassium,5.7,4.5,0.5,3.5,5.1,2-2s,Fail,Second consecutive 1-2s above mean
+2024-05-22,Potassium,5.2,4.5,0.5,3.5,5.1,R-4s,Fail,Alternating >+2SD and <-2SD
+2024-05-23,Potassium,4.6,4.5,0.5,3.5,5.1,,Pass,Within 1SD
+2024-05-20,Sodium,149.0,140.0,3.0,135.0,145.0,1-2s,Warning,Exceeds +2SD but <3SD
+2024-05-21,Sodium,151.0,140.0,3.0,135.0,145.0,1-3s,Fail,Exceeds +3SD
+2024-05-22,Sodium,139.0,140.0,3.0,135.0,145.0,,Pass,Within 2SD
+2024-05-23,Sodium,144.0,140.0,3.0,135.0,145.0,4-1s,Warning,4 consecutive >+1SD
+2024-05-20,Total Protein,7.1,7.0,0.3,6.0,8.0,,Pass,Within 2SD
+2024-05-21,Total Protein,7.2,7.0,0.3,6.0,8.0,,Pass,Within 2SD
+2024-05-22,Total Protein,7.3,7.0,0.3,6.0,8.0,,Pass,Within 2SD
+2024-05-23,Total Protein,7.4,7.0,0.3,6.0,8.0,,Pass,Within 2SD

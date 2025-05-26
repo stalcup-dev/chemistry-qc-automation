@@ -1,0 +1,25 @@
+WEEKLY QC SUMMARY: WESTGARD VIOLATIONS
+
+=== FAILURES (Immediate Investigation Needed) ===
+2024-05-21 | Albumin | 4.8 | Rule: 2-2s | Second consecutive 1-2s above mean
+2024-05-21 | CO2 | 22.0 | Rule: 1-3s | Exceeds -3SD
+2024-05-21 | Chloride | 96.0 | Rule: 1-3s | Exceeds -3SD
+2024-05-20 | Creatinine | 1.6 | Rule: 1-3s | Exceeds +3SD
+2024-05-20 | Potassium | 5.8 | Rule: 1-3s | Exceeds +3SD
+2024-05-21 | Potassium | 5.7 | Rule: 2-2s | Second consecutive 1-2s above mean
+2024-05-22 | Potassium | 5.2 | Rule: R-4s | Alternating >+2SD and <-2SD
+2024-05-21 | Sodium | 151.0 | Rule: 1-3s | Exceeds +3SD
+
+=== WARNINGS (Monitor for Trends) ===
+2024-05-20 | Albumin | 4.9 | Rule: 1-2s | Exceeds +2SD but <3SD
+2024-05-20 | BUN | 25.0 | Rule: 1-2s | Exceeds +2SD but <3SD
+2024-05-23 | BUN | 19.0 | Rule: 10x | 10 consecutive results on one side of the mean
+2024-05-20 | CO2 | 30.0 | Rule: 1-2s | Exceeds +2SD but <3SD
+2024-05-20 | Calcium | 11.0 | Rule: 1-2s | Exceeds +2SD but <3SD
+2024-05-23 | Calcium | 10.0 | Rule: 4-1s | 4 consecutive >+1SD
+2024-05-23 | Chloride | 105.0 | Rule: 4-1s | 4 consecutive >+1SD
+2024-05-22 | Creatinine | 1.4 | Rule: 1-2s | Exceeds +2SD but <3SD
+2024-05-21 | Glucose | 111.0 | Rule: 1-2s | Exceeds +2SD but <3SD
+2024-05-23 | Glucose | 101.0 | Rule: 10x | 10 consecutive results on one side of the mean
+2024-05-20 | Sodium | 149.0 | Rule: 1-2s | Exceeds +2SD but <3SD
+2024-05-23 | Sodium | 144.0 | Rule: 4-1s | 4 consecutive >+1SD
